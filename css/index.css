@@ -1,0 +1,16 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.box{
+	float: left;
+	padding: 10px;
+}
+/* 嵌套inner是为了防止在.box上加margin后，使用绝对定位不好确定其位置（即：宽度 + marign * 2） */
+.box .inner{
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px #ccc;
+}
+.box .inner img{
+	width: 160px;
+}
